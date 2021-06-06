@@ -1,0 +1,45 @@
+API Key (v3 auth)
+    a7e5e0891d5f80182dbe74550e09ce35
+
+Example API Request
+    https://api.themoviedb.org/3/movie/550?api_key=a7e5e0891d5f80182dbe74550e09ce35
+
+API Read Access Token (v4 auth)
+    eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhN2U1ZTA4OTFkNWY4MDE4MmRiZTc0NTUwZTA5Y2UzNSIsInN1YiI6IjYwYmIzNTJlMzBmNzljMDA3N2VkOTIzNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.onuhB48NE2rMptRuiPVvypIjtlpMxeKvwcYGJAAI7Cs
+---
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.5/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+-----
+
+npm commands
+    npm start
+        Starts the development server.
+
+    npm run build
+        Bundles the app into static files for production.
+
+    npm test
+        Starts the test runner.
+
+    npm run eject
+        Removes this tool and copies build dependencies, configuration files
+        and scripts into the app directory. If you do this, you can’t go back!
+
+    We suggest that you begin by typing:
+        cd netflix-clone
+        npm start
+
+---
+Firebase install
+sudo npm install -g firebase-tools
+
+firebase login
+firebase init
+firebase deploy
